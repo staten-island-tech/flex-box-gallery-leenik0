@@ -1,0 +1,39 @@
+html,
+body,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%; /* Normally 100% is 16px, 10px is 62.5% which is what we normally want */
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: rgb(252, 177, 166);
+   
+}
+.header{
+    text-align: center;
+    font-size: 8rem;
+    margin: 5vh 5vw 5vh;
+}
+.header-title{
+    border: 3px solid rgb(93, 42, 66);
+    background-color: rgb(255, 220, 204);
+    border-radius: 7vw;
+    padding: 2vh;
+}
+.parent-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.images {
+    width: 90vw;
+}
+img {	
+    width: 30%;
+    border: 5px solid rgb(93, 42, 66);
+    background-color: rgb(255, 220, 204);
+    box-shadow: 10px 10px 15px;
+    margin: 1vw;
+    padding: 2vw 2vw 10vh
+}
