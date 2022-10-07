@@ -37,6 +37,12 @@ img {
     border: 5px solid rgb(93, 42, 66);
     background-color: rgb(255, 220, 204);
     box-shadow: 10px 10px 15px;
-    margin: 1vw;
-    padding: 2vw 2vw 10vh
+    width: 27%;
+    margin: 2vh;
+    font-size: 5rem;
+    padding: 2vw 2vw 2vw;
+}
+.text{
+    background-color:rgb(255, 220, 204);
+    margin-top: 2vh;
 }
