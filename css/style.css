@@ -17,6 +17,7 @@ body,
 .header-title{
     border: 3px solid rgb(93, 42, 66);
     background-color: rgb(255, 220, 204);
+    box-shadow: 10px 10px 15px;
     border-radius: 7vw;
     padding: 2vh;
 }
@@ -31,6 +32,8 @@ body,
 }
 img {	
     width: 30%;
+}
+.row{
     border: 5px solid rgb(93, 42, 66);
     background-color: rgb(255, 220, 204);
     box-shadow: 10px 10px 15px;
