@@ -5,9 +5,10 @@ body,
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%; /* Normally 100% is 16px, 10px is 62.5% which is what we normally want */
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;   
+}
+body{
     background-color: rgb(252, 177, 166);
-   
 }
 .header{
     text-align: center;
@@ -43,6 +44,70 @@ img {
     padding: 2vw 2vw 2vw;
 }
 .text{
-    background-color:rgb(255, 220, 204);
     margin-top: 2vh;
 }
+.form{
+    text-align: center;
+    font-size: 3rem;
+}
+.button-1{
+    background-color: rgb(29 161 242);
+    padding: 0.75vh;
+    border-radius: 30px;
+    color: white;
+    border: 2px solid white;
+}
+
+.img-1{
+    transition: 0.5s;
+}
+.img-1:hover{
+    transform: scale(1.15);
+}
+
+.img-2{
+    transition: 0.5s;
+}
+.img-2:hover{
+    opacity:0.5;
+}
+
+.img-3{
+    transition: 0.5s;
+}
+.img-3:hover{
+    transform: skew(-10deg);
+}
+
+.img-color{
+    transition: 0.5s;
+}
+.img-color:hover{
+border: 5px solid rgb(135, 131, 209);
+  color: rgb(135, 131, 209);
+  background-color: white;
+}
+
+.img-5{
+    transition: 0.5s;
+  }
+.img-5:hover {
+    transform: rotate(360deg);
+  }
+
+  @keyframes bounce {
+    0%, 20%, 60%, 100% {
+      transform: translateY(0);
+    }
+  
+    40% {
+      transform: translateY(-3vh);
+    }
+  
+    80% {
+      transform: translateY(-1.5vh);
+    }
+  }
+  .img-6:hover{
+    animation: bounce 1s;
+  }
