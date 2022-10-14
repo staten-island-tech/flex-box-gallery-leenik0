@@ -126,7 +126,7 @@ border: 5px solid rgb(135, 131, 209);
   }
 
 /* breakpoints ooooo */
-@media all and (min-width: 600px){
+@media all and (min-width: 828px){
     .row{
         border: 5px solid rgb(255, 220, 204);
         background-color: rgb(93, 42, 66);
@@ -138,7 +138,7 @@ border: 5px solid rgb(135, 131, 209);
     }
 }
 
-@media all and (min-width: 992px){
+@media all and (min-width: 1024px){
     .row{
         border: 5px solid rgb(93, 42, 66);
         background-color: rgb(255, 220, 204);
@@ -150,7 +150,7 @@ border: 5px solid rgb(135, 131, 209);
     }
 }
 
-@media all and (min-width: 1200px){
+@media all and (min-width: 1080px){
     body{
         color: #243A51;
     }
