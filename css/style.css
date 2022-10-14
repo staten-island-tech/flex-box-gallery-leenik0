@@ -126,7 +126,7 @@ border: 5px solid rgb(135, 131, 209);
   }
 
 /* breakpoints ooooo */
-@media (min-width: 600px) (max-width: 992px){
+@media all and (min-width: 600px) (max-width: 992px){
     .row{
         border: 5px solid rgb(255, 220, 204);
         background-color: rgb(93, 42, 66);
