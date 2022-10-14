@@ -140,6 +140,9 @@ border: 5px solid rgb(135, 131, 209);
 }
 
 @media all and (min-width: 1024px){
+    body{
+        color: white;
+    }
     .header-title{
         border: 3px solid rgb(93, 42, 66);
         background-color: rgb(255, 220, 204);
@@ -148,7 +151,7 @@ border: 5px solid rgb(135, 131, 209);
         padding: 2vh;
     }
     .row{
-        border: 5px solid rgb(93, 42, 66);
+        border: 3px solid rgb(93, 42, 66);
         background-color: rgb(255, 220, 204);
         box-shadow: 10px 10px 15px;
         width: 27%;
@@ -156,9 +159,7 @@ border: 5px solid rgb(135, 131, 209);
         font-size: 5rem;
         padding: 2vw 2vw 2vw;
     }
-    body{
-        color: white;
-    }
+
 }
 
 @media all and (min-width: 1080px){
