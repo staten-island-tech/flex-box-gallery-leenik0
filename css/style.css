@@ -52,23 +52,22 @@ img {
 }
 .button-1{
     background-color: rgb(29 161 242);
-    padding: 0.75vh;
-    border-radius: 30px;
-    color: white;
-    border: 2px solid white;
-    margin: 1vh;
+
 }
 .button-2{
     background-color: red;
+
+}
+button{
     padding: 0.75vh;
     border-radius: 30px;
     color: white;
     border: 2px solid white;
     margin: 1vh;
+    box-shadow: 0 0 10px black;
 }
 .buttons{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -125,3 +124,16 @@ border: 5px solid rgb(135, 131, 209);
   .img-6:hover{
     animation: bounce 1s;
   }
+
+/* breakpoints ooooo */
+@media (min-width: 600px) (max-width: 992px){
+    .row{
+        border: 5px solid rgb(255, 220, 204);
+        background-color: rgb(93, 42, 66);
+        box-shadow: 10px 10px 15px;
+        width: 27%;
+        margin: 2vh;
+        font-size: 5rem;
+        padding: 2vw 2vw 2vw;
+    }
+}
