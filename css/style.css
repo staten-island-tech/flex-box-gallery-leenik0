@@ -127,6 +127,18 @@ border: 5px solid rgb(135, 131, 209);
 
 /* breakpoints ooooo */
 @media all and (max-width: 1023px){
+    body{
+        color: white;
+    }
+    .row{
+        border: 5px solid rgb(255, 220, 204);
+        background-color: rgb(93, 42, 66);
+        box-shadow: 10px 10px 15px;
+        width: 27%;
+        margin: 2vh;
+        font-size: 5rem;
+        padding: 2vw 2vw 2vw;
+    }
     .row{
         border: 5px solid rgb(255, 220, 204);
         background-color: rgb(93, 42, 66);
@@ -140,26 +152,13 @@ border: 5px solid rgb(135, 131, 209);
 }
 
 @media all and (min-width: 1024px){
-    body{
-        color: white;
-    }
     .header-title{
         border: 3px solid rgb(93, 42, 66);
         background-color: rgb(255, 220, 204);
         box-shadow: 10px 10px 15px;
         border-radius: 7vw;
         padding: 2vh;
-    }
-    .row{
-        border: 3px solid rgb(93, 42, 66);
-        background-color: rgb(255, 220, 204);
-        box-shadow: 10px 10px 15px;
-        width: 27%;
-        margin: 2vh;
-        font-size: 5rem;
-        padding: 2vw 2vw 2vw;
-    }
-
+    }  
 }
 
 @media all and (min-width: 1080px){
