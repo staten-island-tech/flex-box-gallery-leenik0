@@ -140,8 +140,8 @@ border: 5px solid rgb(135, 131, 209);
         padding: 2vw 2vw 2vw;
     }
     .header-title{
-        border: 3px solid rgb(93, 42, 66);
-        background-color: rgb(255, 220, 204);
+        border: 5px solid rgb(255, 220, 204);
+        background-color: rgb(93, 42, 66);
         box-shadow: 10px 10px 15px black;
         border-radius: 7vw;
         padding: 2vh;
